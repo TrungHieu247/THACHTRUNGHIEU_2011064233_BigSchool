@@ -18,7 +18,7 @@ namespace ThachTrungHieu_2011064233.Models
         }
 
         public static ApplicationDbContext Create()
-        {
+        {           
             return new ApplicationDbContext();
         }
     }
