@@ -1,11 +1,13 @@
-﻿/* Set padding to keep content from hitting the edges */
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
 .body-content {
-    margin-top: 15px;
     padding-left: 15px;
     padding-right: 15px;
 }
-
-
 
 /* Override the default bootstrap behavior where horizontal description lists 
    will truncate terms that are too long to fit in the left column 
@@ -20,22 +22,9 @@ select,
 textarea {
     max-width: 280px;
 }
-.course{
-    list-style:none;
-}
-.course > li{
-    position: relative;
-    margin-bottom: 30px;
-}
-.course > li .date {
-    text-align:center;
-    background-color: #d8104d;
-    color: white;
-    width: 60px;
-    border-radius: 8px;
-}
-.course >li .details{
-    position: absolute;
-    top: 0;
-    left:70px;
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+    background-color: #777;
+    border-color: #fff
 }
